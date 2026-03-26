@@ -1,0 +1,16 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "mark": "bar",
+  "title": "Q1 Revenue by Region",
+  "data": {
+    "values": [
+      {"region": "EMEA", "revenue": 4.2},
+      {"region": "NA", "revenue": 7.1},
+      {"region": "APAC", "revenue": 3.8}
+    ]
+  },
+  "encoding": {
+    "x": {"field": "region", "type": "nominal", "title": "Region"},
+    "y": {"field": "revenue", "type": "quantitative", "title": "Revenue (M USD)"}
+  }
+}

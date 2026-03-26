@@ -1,0 +1,7 @@
+date,service,latency
+2026-01-01,API Gateway,120
+2026-02-01,API Gateway,95
+2026-03-01,API Gateway,110
+2026-01-01,Database,45
+2026-02-01,Database,42
+2026-03-01,Database,48
