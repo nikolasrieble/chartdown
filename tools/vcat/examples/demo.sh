@@ -23,7 +23,7 @@ start_recording() {
   if [ "$RECORD" = true ]; then
     echo "demo: recording $name..."
     ffmpeg -y -f avfoundation -framerate 30 -capture_cursor 0 \
-      -i "1:none" \
+      -i "2:none" \
       -c:v libx264 -preset fast -crf 18 -pix_fmt yuv420p \
       "demo/${name}.mp4" &>/dev/null &
     FFMPEG_PID=$!
