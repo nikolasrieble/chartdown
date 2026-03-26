@@ -8,6 +8,8 @@ Mermaid replaced opaque diagram images with structured text. Chartdown does the 
 
 Render Vega-Lite charts inline in your terminal.
 
+![vcat demo](demo.gif)
+
 ```
 vcat chart.json                    # render a Vega-Lite spec
 vcat report.md                     # render all ```vega-lite blocks
