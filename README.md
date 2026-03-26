@@ -48,7 +48,7 @@ cd tools/vcat && npm install && npm link
 
 ## The thesis
 
-Charts in documentation are images. Images are opaque to agents. Vega-Lite is a JSON format for charts that already exists, already has renderers, and LLMs already understand. The gap is adoption, not invention.
+[LLM-first, human-second.](https://rieble.com/blog/llm-first-human-second/) Charts in documentation are images. Images are opaque to agents. Vega-Lite is a JSON format for charts that already exists, already has renderers, and LLMs already understand. The gap is adoption, not invention.
 
 See [docs/proposal.md](docs/proposal.md) for the full proposal, design decisions, and abandoned ideas.
 
