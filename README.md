@@ -42,7 +42,7 @@ cd tools/vcat && npm install && npm link
 ### Known limitations
 
 - **Kitty graphics protocol required** — no fallback for terminals without image support (plain Terminal.app, Windows Terminal, basic SSH sessions). Use `--save chart.png` as a workaround.
-- **Node.js startup overhead** — ~200ms before anything renders; noticeable for quick one-off charts. A native Zig rewrite is planned.
+- **Node.js startup overhead** — ~200ms before anything renders; noticeable for quick one-off charts.
 - **No interactivity** — charts are static images. No hover tooltips, zoom, or pan.
 - **CSV inference is naive** — guesses chart type from column types (temporal → line, categorical + numeric → bar, two numeric → scatter). Will get it wrong on ambiguous data. Pass a Vega-Lite spec directly for full control.
 - **Large datasets** — inline Vega-Lite `values` work for tens to hundreds of data points. Thousands will bloat file size and slow rendering.
